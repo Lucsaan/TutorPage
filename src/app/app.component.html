@@ -1,4 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar class="toolbar">
+  <span>{{title}}</span>
+  <md-toolbar-row>
+    <a routerLink="/MainPage" routerLinkActive="active">
+      <button md-button class="toolbar">Main
+     </button>
+    </a>
+    <a routerLink="/Videos" routerLinkActive="active">
+      <button md-button routerlink="/Videos" routerLinkActive="active" class="toolbar">
+      Videos
+    </button>
+    </a>
+  </md-toolbar-row>
+
+</md-toolbar>
+<!--der Tag router-outlet kennzeichnet, wo das Routing stattfindet, 
+welches in app.modules definiert worden ist. Hier wird die 
+komplette Single-Page Application aufgebaut. Und nur in diesem
+Fenster werden die jeweiligen Html-Seiten aufgebaut. Die Titelleiste
+über diesem Tag bleibt somit immer bestehen und kann als Navigation#
+verwendet werden -->
 <router-outlet></router-outlet>
