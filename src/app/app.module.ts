@@ -37,3 +37,13 @@ const appRoutes : Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+// Steps:
+// ng generate component test-page-2
+//  { path: 'Test 2', component: TestPageComponent }, in app.module.ts
+// 
+//     <a routerLink="/Test 2" routerLinkActive="active">
+//      <button md-button routerlink="/Test 2" routerLinkActive="active" class="toolbar">
+//      Test 2
+//    </button>
