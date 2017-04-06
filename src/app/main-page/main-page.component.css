@@ -1,7 +1,7 @@
 h1 {
     height: 46vw;
-    background-color: #ffd57a;
-    background: url('/src/public/images/GoaChandran.jpeg') no-repeat center center fixed;
+    background-color: white;
+/*    background: url('/src/public/images/GoaChandran.jpeg') no-repeat center center fixed; */
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,6 +10,6 @@ h1 {
 html, body {
     height: 100%;
     
-    background:url('/src/public/images/GoaChandran.jpeg') no-repeat center center fixed;
+ /*   background:url('/src/public/images/GoaChandran.jpeg') no-repeat center center fixed; */
     background-size: cover;
 }
