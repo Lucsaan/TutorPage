@@ -9,15 +9,55 @@ import { DomSanitizer} from '@angular/platform-browser';
 export class VideoPageComponent implements OnInit {
   videoArray: any = [
     {
-      name: 'JDK & Eclipse',
+      name: 'Übung 1',
       id: 'b1pDj1gx9zs'
     },
     {
-      name: 'System.out.Print',
+      name: 'Übung 2',
       id: 'ghDEieyOr8o'
     },
     {
-      name: 'Einführung von Int',
+      name: 'Übung 3',
+      id: '4yfHWLRs6s0'
+    },
+    {
+      name: 'Übung 4',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 5',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 6',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 7',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 8',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 9',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 10',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 11',
+      id: 'ghDEieyOr8o'
+    },
+    {
+      name: 'Übung 12',
+      id: 'ghDEieyOr8o'
+    },    
+    {
+      name: 'Übung 13',
       id: '0N5Xc3oQ2-U'
     }
   ];
